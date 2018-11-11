@@ -1,2 +1,2 @@
 # se-docs
-Software-Engineering documents.
+Software-Engineering documents. For notes, summing-up, samples, throuble-shooting and translations, etc.
