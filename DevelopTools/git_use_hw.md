@@ -1,4 +1,4 @@
-# 日常操作-简化版
+# GIT日常操作-简化版
 环境基本信息：windows10pro-64位，简体中文。原因：习惯，与办公环境同。
 
 ## I. 用乌龟本地提交到分支，github网站请求master拉取
@@ -14,7 +14,7 @@
 ## II. 本地乌龟操作所有
 1. 用乌龟的PuTTY Key Generator生成密钥（公钥+私钥）
 2. 保存私钥为ppk文件， 复制公钥key到github的settings的SSH and GPG keys。
-3. 选择git工程目录，右键-乌龟菜单的设置，Git-->远端-->设置地址和私钥，添加保存。
+3. 选择git工程目录，右键-乌龟菜单的设置，Git-->远端-->设置地址和私钥，添加保存。有个passphrase不用设置，如果设置要记住。
 4. 将master也clone到本地，添加远端配置。乌龟右键选merge，选择合并的分支。
 5. 合并的内容也只是在本地，master一样commit+push。
 6. 在github上刷新，可以看到新的内容。
