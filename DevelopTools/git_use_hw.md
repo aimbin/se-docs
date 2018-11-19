@@ -19,6 +19,10 @@
 5. 合并的内容也只是在本地，master一样commit+push。
 6. 在github上刷新，可以看到新的内容。
 
+### 本地的分支如何从主线同步内容
+1. 在本地的分支，右键--乌龟菜单--pull，选择master，拉取下来。
+2. 再本地分支，右键--'Git-Commit',选择过去的提交，commit & push. 
+
 ## III 解惑与引用
 1. 提交到master时，乌龟的本地merge操作和github的pull request操作不一致的迷惑：
  +  讨论参考[`Github` 上的 `pull request` 与 `Git` 的 `pull` 有关系么？ ](https://segmentfault.com/q/1010000002575139)
